@@ -16,4 +16,6 @@ Recopilación de ejercicio de clase
    - First nested list item
      - Second nested list item
     
-elemento 1 | elemento 2 | elemento 3 | elemento 4
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
