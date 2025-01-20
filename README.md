@@ -7,8 +7,8 @@ elemento | Descripción
 -------- | -----------
 Elemento | Descripción
 [Actividad2](/tema0/Actividad%202.html) | Esta actividad muestra cómo crear una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto.
-Actividad3 | Esta actividad muestra cómo crear nuestro curriculum personal en html
-Actividad4 | Esta actividad muestra cómo crear nuestra primera página html
+[Actividad3](/tema0/Actividad%203.html) | Esta actividad muestra cómo crear nuestro curriculum personal en html
+[Actividad4](/tema0/Actividad%204.html) | Esta actividad muestra cómo crear nuestra primera página html
 Actividad5 | Esta actividad muestra cómo crear una página que contenga varios párrafos, con distinta alineación y con encabezados
 Actividad6 | Esta actividad muestra cómo modifica la página anterior para incluir distintos formatos de texto
 Actividad7 | Esta actividad muestra cómo cambiar los atributos de la página para cambiar el fondo y color
