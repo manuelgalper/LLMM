@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista Borrable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    ul {
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Mi Lista</h2>
+  <ul id="miLista">
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ul>
+
+  <button onclick="borrarLista()">Borrar lista</button>
+
+  <script>
+    function borrarLista() {
+      const lista = document.getElementById('miLista');
+      lista.innerHTML = ''; // Borra todos los elementos de la lista
+    }
+  </script>
+
+</body>
+</html>
