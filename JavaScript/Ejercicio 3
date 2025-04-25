@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function cambiaCoche(nombre) {
+            document.getElementById('miImagen').src = nombre;   
+        }
+    </script>
+</head>
+<body>
+    <h1>Imagenes de coches</h2>
+
+
+    <p>Ejemplo de JavaScript en el que cambiamos las imagenes mostradas el pulsar un boton</p>
+     
+    <img id="miImagen" src="coche1.jpg" style="height:300px"><br>
+     
+    <button onclick="cambiaCoche('coche1.jpg')">Coche 1</button>    
+    <button onclick="cambiaCoche('coche2.jpg')">Coche 2</button>    
+    <button onclick="cambiaCoche('coche3.jpg')">Coche 3</button>        
+    <button onclick="cambiaCoche('coche4.jpg')">Coche 4</button>    
+    <button onclick="cambiaCoche('coche5.jpg')">Coche 5</button>    
+    <button onclick="cambiaCoche('coche6.jpg')">Coche 6</button>
+<style>
+    .area {
+     border: 1px solid #000;
+     padding: 10px;
+     margin: 10px;
+}
+
+    .imagenes {
+     background-color: #f0f0f0;
+}
+
+    .multimedia {
+     background-color: #e0e0e0;
+}
+</style>
+<div class="area imagenes">
+    <h2>Imagenes</h2>
+    <img src="imagen1.jpg" alt="Imagen 1">
+    <img src="imagen2.jpg" alt="Imagen 2">
+</div>
+
+<div class="area multimedia">
+    <h2>Audio y Video</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+</div>            
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Button Groups</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        button {
+            margin-right: 10px;
+        }
+        #message {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section A: Change Paragraph Font Style -->
+    <div class="section">
+        <h2>Change Paragraph Style</h2>
+        <p id="myParagraph">This is the paragraph whose style will change.</p>
+        <button onclick="changeFont('Arial')">Arial</button>
+        <button onclick="changeFont('Courier New')">Courier New</button>
+        <button onclick="changeFont('Georgia')">Georgia</button>
+    </div>
+
+    <!-- Section B: Change Image Source -->
+    <div class="section">
+        <h2>Change Image</h2>
+        <img id="myImage" src="https://via.placeholder.com/150" alt="Placeholder Image" width="150">
+        <br><br>
+        <button onclick="changeImage('https://via.placeholder.com/150/FF0000/FFFFFF')">Red</button>
+        <button onclick="changeImage('https://via.placeholder.com/150/00FF00/FFFFFF')">Green</button>
+        <button onclick="changeImage('https://via.placeholder.com/150/0000FF/FFFFFF')">Blue</button>
+    </div>
+
+    <!-- Section C: Show Different Messages -->
+    <div class="section">
+        <h2>Show Message</h2>
+        <button onclick="showMessage('Hello, world!')">Message 1</button>
+        <button onclick="showMessage('Welcome to this page!')">Message 2</button>
+        <button onclick="showMessage('Have a great day!')">Message 3</button>
+        <div id="message"></div>
+    </div>
+
+    <script>
+        function changeFont(font) {
+            document.getElementById("myParagraph").style.fontFamily = font;
+        }
+
+        function changeImage(src) {
+            document.getElementById("myImage").src = src;
+        }
+
+        function showMessage(message) {
+            document.getElementById("message").textContent = message;
+        }
+    </script>
+
+</body>
+</html>

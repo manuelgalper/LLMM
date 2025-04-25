@@ -1,0 +1,113 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Quote Generator</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+    }
+
+    h1 {
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      color: #333;
+    }
+
+    #quote {
+      font-size: 1.3rem;
+      font-style: italic;
+      margin: 1.5rem 0;
+      color: #555;
+    }
+
+    #author {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+
+    #generate {
+      padding: 0.7rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #generate:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Random Quote Generator</h1>
+    <p id="quote">Click the button to generate a quote!</p>
+    <p id="author"></p>
+    <button id="generate">New Quote</button>
+  </div>
+
+  <script>
+    const quotes = [
+      {
+        quote: "The only way to do great work is to love what you do.",
+        author: "Steve Jobs"
+      },
+      {
+        quote: "Life is what happens when you're busy making other plans.",
+        author: "John Lennon"
+      },
+      {
+        quote: "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+        author: "Ralph Waldo Emerson"
+      },
+      {
+        quote: "You miss 100% of the shots you don't take.",
+        author: "Wayne Gretzky"
+      },
+      {
+        quote: "Whether you think you can or you think you can’t, you’re right.",
+        author: "Henry Ford"
+      }
+    ];
+
+    const quoteText = document.getElementById('quote');
+    const authorText = document.getElementById('author');
+    const generateBtn = document.getElementById('generate');
+
+    generateBtn.addEventListener('click', () => {
+      const randomIndex = Math.floor(Math.random() * quotes.length);
+      const selectedQuote = quotes[randomIndex];
+
+      quoteText.textContent = `"${selectedQuote.quote}"`;
+      authorText.textContent = `— ${selectedQuote.author}`;
+    });
+  </script>
+</body>
+</html>

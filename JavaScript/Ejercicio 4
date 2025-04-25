@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de innerHTML</title>
+</head>
+<body>
+    <h1>Entrada de Texto</h1>
+    <input type="text" id="textInput" placeholder="Escribe algo...">
+    <button onclick="mostrarTexto()">Mostrar Texto</button>
+    <p id="textOutput"></p>
+    
+    <h2>Entrada de Numero</h2>
+    <input type="number" id="numberInput" placeholder="Escribe un numero...">
+    <button onclick="mostrarNumero()">Mostrar Numero</button>
+    <p id="numberOutput"></p>
+
+    <script>
+        // Funcion para mostrar texto
+        function mostrarTexto() {
+            var texto = document.getElementById('textInput').value;
+            document.getElementById('textOutput').innerHTML = "Has escrito: " + texto;
+        }
+
+        // Funcion para mostrar numero
+        function mostrarNumero() {
+            var numero = document.getElementById('numberInput').value;
+            document.getElementById('numberOutput').innerHTML = "Has escrito: " + numero;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
