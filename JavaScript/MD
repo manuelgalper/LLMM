@@ -1,1 +1,34 @@
+# LLMM
+Recopilación de ejercicio de clase
 
+
+    
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
+
+[Ejercicio 1](/JavaScript/Ejercicio%201.html) | Este ejercicio muestra cómo modificar el código para:
+Añadir un botón (y una función) para borrar la demostración p.
+Colocar el script en un archivo externo llamado MyJS.js.
+
+[Ejercicio 2](/JavaScript/Ejercicio%202.html) | Este ejercicio muestra cómo modificar el código para:
+Añadir un botón (y una función) que escriba en la demostración p al hacer clic.
+Colocar el script en un archivo externo llamado js02.js.
+
+[Ejercicio 3](/JavaScript/Ejercicio%203.html) | Este ejercicio muestra cómo crear una página web para mostrar diferentes imágenes de coches o de Spiderman 
+haciendo clic botones (uno por cada imagen).
+
+[Ejercicio 4](/JavaScript/Ejercicio%204.html) | Este ejercicio muestra como crear una página web que declare una variable, asigne un valor a partir de una
+entrada y, finalmente, lo muestre usando la propiedad innerHTML y luego repetirlo varias veces usando números y texto.
+
+[Ejercicio 5](/JavaScript/Ejercicio%205.html) | Este ejercicio muestra cómo crear una página web desde cero con tres grupos de botones.
+
+[Ejercicio 6](/JavaScript/Ejercicio%206.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo hacer cotizaciones aleatorias.
+
+[Ejercicio 7](/JavaScript/Ejercicio%207.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre el control deslizante de una 
+imagen.
+
+[Ejercicio 8](/JavaScript/Ejercicio%208.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre la imagen de una calculadora.
+
+[Ejercicio 9](/JavaScript/Ejercicio%209.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo convertir de Celsius a
+Fahrenheit.
