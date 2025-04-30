@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url('tu-imagen.jpg');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura segun sea necesario */
+}
+
+img {
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.text {
+    max-width: 70%; /* Ajusta el ancho del texto segun sea necesario */
+}
+</style>
+</head>
+<body>
+
+<div id="content">
+    <img src="tu-imagen.jpg" alt="Imagen a la izquierda">
+    <div class="text">
+        <h1>Titulo</h1>
+        <p>Este es un ejemplo de texto que aparecera a la derecha de la imagen. Puedes agregar aqui tu contenido.</p>
+    </div>
+</div>
+</body>
+</html>

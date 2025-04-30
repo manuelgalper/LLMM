@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>CURRICULUM VITAE</title>
+<style>
+body {
+  font-family: Calibri,Arial,Helvetica,sans-serif;
+}
+
+h1 {
+  font-family: Cambria,Times,serif;
+  color: #1F497D;
+  background-color: #BFBFBF;
+  font-size: 24px;
+  letter-spacing: 1.6em;
+  word-spacing: 2 em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Cambria,Times,serif;
+  color: #632423;
+  font-size: 18px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+li {
+  font-style: italic;
+  font-weight: bold;
+}
+
+strong {
+  font-style: normal;
+  font-variant: small-caps;
+}
+</style>
+</head>
+<body>
+
+<h1>CURRICULUM VITAE</h1>
+
+<h2>PERSONAL DATA</h2>
+<ul>
+<li>Name: <strong>Manuel</strong></li>
+<li>Surname: <strong>Gallardo</strong></li>
+<li>Date of birth: <strong>3/10/2002</strong></li>
+<li>: <strong>HUELVA</strong></li>
+</ul>
+
+<h2>EDUCATION</h2>
+<ul>
+<li>2014:2020 <strong>LA ORDER Institute</strong></li>
+<li>2008:2013 <strong>Primary School</strong></li>
+</ul>
+
+<h2>PROFESSIONAL EXPERIENCE</h2>
+<ul>
+<li>2007:2009 <strong>Computer teacher in High School in Bishkey</strong></li>
+<li>2005:2007 <strong>Secretary of Departament of Software in Technical University of Kyrgyzstan in Bishkey</strong></li>
+</ul>
+</body>
+</html>

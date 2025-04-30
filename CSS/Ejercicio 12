@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Adaptativa</title>
+    <link rel="stylesheet" href="styles.css">
+<style>    
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li {
+        float: none;
+        width: 100%;
+    }
+
+    .column {
+        flex-basis: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>Como crear una pagina web adaptativa</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="column">
+            <h2>Columna 1</h2>
+            <p>Contenido de la primera columna.</p>
+        </div>
+        <div class="column">
+            <h2>Columna 2</h2>
+            <p>Contenido de la segunda columna.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mi Sitio Web Adaptativo</p>
+    </footer>
+</body>
+</html>
