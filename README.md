@@ -21,6 +21,7 @@ cada cabecera
 [Ejercicio15](/Tema0/Ejercicio%2015.html) | Este ejercicio nos pide cómo crear tablas en html
 [Ejercicio16](/Tema0/Ejercicio%2016.html) | Este ejercicio nos pide cómo crear una tabla html que muestre nuestro horario de clase
 [Ejercicio22](/Tema0/Ejercicio%2022.html) | Este ejercicio nos muestra cómo crear un favicon e incluirlo en una página web
+[Ejercicio23](/Tema0/Ejercicio%2023.html) | Este ejercicio nos muestra cómo crear una página que incluya una barra de menús: “html | css | javascript | Ajax” y que a continuación muestre un iFrame en el que visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior.
 [Ejercicio24](/Tema0/Ejercicio%2024.html) | Este ejercicio nos muestra cómo crear un formulario en html
 [Ejercicio25](/Tema0/Ejercicio%2025.html) | Este ejercicio nos muestra cómo agregar nuevos controles en el formulario del ejercicio anterior
 
