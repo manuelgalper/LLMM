@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Actividad 24</title>
+</head>
+<body>
+
+  <h1>Rellena tu CV</h1>
+
+  <form action="" method="get">
+    <p>
+    Nombre: <input type="text" name="nombre" maxlength="50" />
+    </p>
+    
+    <p>
+    Apellidos: <input type="text" name="apellidos" maxlength="50" />
+    </p>
+    
+    <p>
+      Contraseña: <input type="text" name="contraseña" maxlength="50" />
+      </p>
+  
+    <p>
+      DNI: <input type="text" name="DNI" maxlength="50" />
+      </p>  
+
+    <p>
+      Sexo: <input type="radio" name="sexo" value="h" /> hombre <input type="radio" name="sexo" value="m" /> mujer
+      </p>
+
+    <p>
+      <input type="checkbox" name="info" checked="checked" /> Suscribirme al boletin de novedades
+      </p>
+  
+    <p>
+      <input type="submit" value="Guardar cambios" />
+      <input type="submit" value="Borrar los datos introducidos" />
+      </p>
+  </form>      
+  </body>
+  </html>  

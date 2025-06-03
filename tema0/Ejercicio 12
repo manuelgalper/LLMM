@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Actividad 12</title>
+<style> 
+h1 { 
+    font-family: Verdana, sans-serif; 
+} 
+p { 
+    font-family: Courier, monospace; 
+    margin: 20px; 
+    padding: 10px; 
+} 
+#parrafo1 { 
+    background-color: #ffcccb; /* Rojo claro */ 
+    color: #000080; /* Azul oscuro */ 
+    text-align: left;
+
+} #parrafo2 { 
+    background-color: #d4edda; /* Verde claro */ 
+    color: #8b0000; /* Rojo oscuro */ 
+    text-align: right; 
+
+} #parrafo3 { 
+    background-color: #f0e68c; /* Amarillo */ 
+    color: #006400; /* Verde oscuro */ 
+    text-align: center; 
+
+} #parrafo4 { 
+    background-color: #add8e6; /* Azul claro */ 
+    color: #8b008b; /* Purpura oscuro */ 
+    text-align: justify;
+} 
+</style>       
+</head>
+<body>
+    <h1 id="cabecera1">Cabecera 1</h1> 
+    <p id="parrafo1"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
+    
+    <h1 id="cabecera2">Cabecera 2</h1> 
+    <p id="parrafo2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
+    
+    <h1 id="cabecera3">Cabecera 3</h1> 
+    <p id="parrafo3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
+    
+    <h1 id="cabecera4">Cabecera 4</h1> 
+    <p id="parrafo4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>  
+</body>
+</html>   

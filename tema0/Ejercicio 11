@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Actividad 11</title>
+</head>
+<body>
+    <h1>Menu</h1>
+<ul>
+<li>Inicio</li>     
+<li>Noticias</li>
+    <li>Recientes</li>
+    <li>Mas leidas</li>
+    <li>Mas valoradas</li>
+</ul>
+</body>
+</html>
