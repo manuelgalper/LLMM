@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historia de HTML</title>
+</head>
+<body>
+
+    <h1>HTML</h1>
+
+    <h2>Introducción</h2>
+    <p>
+        <strong>HyperText Markup Language</strong> es el lenguaje de marcado predominante para la elaboración de páginas web. Fue creado por <em>Tim Berners-Lee</em> en 1991.
+    </p>
+
+    <h2>Primeras especificaciones</h2>
+    <p>
+        La primera descripción pública de HTML fue un documento llamado "HTML Tags", publicado por <em>Tim Berners-Lee</em>. Las especificaciones iniciales fueron la base para el desarrollo de los estándares web actuales.
+    </p>
+
+    <p>
+        Fuente: <cite>https://es.wikipedia.org/wiki/HTML</cite>
+    </p>
+
+</body>
+</html>
