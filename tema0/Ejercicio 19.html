@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Imágenes Flotantes</title>
+  <style>
+    .float-left {
+      float: left;
+      margin-right: 15px;
+      width: 150px;
+    }
+
+    .float-right {
+      float: right;
+      margin-left: 15px;
+      width: 150px;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="clearfix">
+    <img src="https://via.placeholder.com/150" alt="Imagen izquierda" class="float-left">
+    <p>
+      Este es un párrafo de ejemplo que acompaña a una imagen flotada a la izquierda.
+      El texto fluye alrededor de la imagen, lo que permite una presentación atractiva
+      y profesional del contenido visual junto al texto descriptivo o narrativo.
+    </p>
+  </div>
+
+  <div class="clearfix">
+    <img src="https://via.placeholder.com/150" alt="Imagen derecha" class="float-right">
+    <p>
+      Ahora tenemos otra imagen, pero esta vez flotada a la derecha. Al igual que antes,
+      el texto se adapta y rodea la imagen, creando un diseño equilibrado y legible,
+      útil en artículos, blogs o páginas informativas.
+    </p>
+  </div>
+
+</body>
+</html>
