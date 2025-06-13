@@ -6,7 +6,6 @@ Recopilación de ejercicio de clase
 elemento | Descripción
 -------- | -----------
 Elemento | Descripción
-
 [Animaciones](/PrácticaBootstrap/Animaciones.html) | Ejercicio de animaciones
 [Carrusel](/PrácticaBootstrap/Carrusel.html) | Ejercicio de carrusel con imágenes
 [Diseño](/PrácticaBootstrap/Diseño.html) | Ejercicio de diseño adaptable
