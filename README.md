@@ -60,7 +60,7 @@ Elemento | Descripción
 [Diseño adaptable](/Bootstrap/Diseño%20adaptable.html) | Este ejercicio muestra cómo crear un diseño adaptable de forma que se adapte tanto a pantallas pequeñas de smartphone como a tablets y pantallas más grandes
 [Etiquetas de audio y vídeo](/Bootstrap/Etiquetas%20de%20audio%20y%20video.html) | Este ejercicio muestra cómo incluir elementos de multimedia
 [Formulario](/Bootstrap/Formulario.html) | Este ejercicio muestra cómo incluir un formulario aunque no sea operativo
-[Tablastriped](/Bootstrap/Tabla%20striped.html) | Este ejercicio muestra cómo incluir una tabla striped
+[Tabla striped](/Bootstrap/Tabla%20striped.html) | Este ejercicio muestra cómo incluir una tabla striped
 
 
 # JavaScript
