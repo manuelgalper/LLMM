@@ -64,3 +64,15 @@ Elemento | Descripción
 [Ejercicio 8](/JavaScript/Ejercicio%208.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre la imagen de una calculadora.
 [Ejercicio 9](/JavaScript/Ejercicio%209.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo convertir de Celsius a Fahrenheit.
 
+
+# DOM
+Recopilación de ejercicio de clase
+
+
+    
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
+[Ejercicio 1](/DOM/Ejercicio%201.html) | Este ejercicio muestra cómo crear una página web que contenga varios párrafos y que mediante JavaScript acceda al DOM muestre el contenido de dichos párrafos en un div.
+[Ejercicio 2](/DOM/Ejercicio%202.html) | Este ejercicio muestra cómo crear una página y que mediante JavaScript agrega imagen a un div.
+[Ejercicio 3](/DOM/Ejercicio%203.html) | Este ejercicio muestra cómo cear una página con una lista y borra los elementos de dicha lista.
