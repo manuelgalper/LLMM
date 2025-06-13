@@ -1,0 +1,25 @@
+<CDList>
+  <CD>
+    <Title>Nombre del Álbum</Title>
+    <Artist>Nombre del Artista o Grupo</Artist>
+    <Year>2023</Year>
+    <Genre>Pop</Genre>
+    <Label>Nombre del Sello Discográfico</Label>
+    <Tracks>
+      <Track>
+        <Number>1</Number>
+        <Title>Nombre de la Canción</Title>
+        <Duration>03:45</Duration>
+        <Composer>Nombre del Compositor</Composer>
+      </Track>
+      <Track>
+        <Number>2</Number>
+        <Title>Otra Canción</Title>
+        <Duration>04:02</Duration>
+        <Composer>Nombre del Compositor</Composer>
+      </Track>
+      <!-- Más pistas -->
+    </Tracks>
+  </CD>
+  <!-- Más CDs -->
+</CDList>

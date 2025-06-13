@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letter>
+    <sender>
+        <name>John Doe</name>
+        <address>123 Main St, Springfield, IL</address>
+        <email>johndoe@example.com</email>
+    </sender>
+    <receiver>
+        <name>Jane Smith</name>
+        <address>456 Elm St, Springfield, IL</address>
+        <email>janesmith@example.com</email>
+    </receiver>
+    <date>2025-05-09</date>
+    <body>
+        <greeting>Dear Jane,</greeting>
+        <content>
+            <paragraph>
+                I hope this message finds you well. I am writing to inform you about the upcoming project we will be working on together. 
+                We aim to start in the next few weeks, and I would love to discuss the timeline and next steps.
+            </paragraph>
+            <paragraph>
+                Please let me know your availability for a quick meeting next week. Looking forward to collaborating with you.
+            </paragraph>
+        </content>
+    </body>
+    <signature>
+        <name>John Doe</name>
+        <position>Project Manager</position>
+    </signature>
+</letter>

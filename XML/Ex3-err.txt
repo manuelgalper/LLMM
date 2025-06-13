@@ -1,0 +1,34 @@
+ERROR: Improper nesting of elements:
+   LINE: <president>Bill Gates <extension>09-9990011</president></extension>
+   CORRECTION: Move <extension> inside <president> or restructure properly.
+   SUGGESTION:
+     <president>
+       <name>Bill Gates</name>
+       <extension>09-9990011</extension>
+     </president>
+
+ERROR: Same as above for <secretary> element.
+   LINE: <secretary>Katharine Finch <extension>09-9990012</secretary></extension>
+   CORRECTION:
+     <secretary>
+       <name>Katharine Finch</name>
+       <extension>09-9990012</extension>
+     </secretary>
+
+ERROR: Text and child elements mixed improperly.
+   REASON: XML doesn't allow mixed content unless explicitly defined and handled.
+
+ERROR: Missing containment of roles under <company>.
+   ISSUE: president and secretary are not grouped under their respective <company>.
+   CORRECTION: Move <president> and <secretary> inside each corresponding <company> block.
+
+ERROR: Missing whitespace normalization and formatting inconsistencies.
+   CORRECTION: Proper indentation and line breaks for readability and maintainability.
+
+ERROR: No DTD or schema definition.
+   SUGGESTION: Optional, but defining a schema or DTD can prevent such issues.
+
+ERROR: No consistent structure between <company> entries.
+   CORRECTION: Ensure all company entries follow the same nested structure.
+
+
