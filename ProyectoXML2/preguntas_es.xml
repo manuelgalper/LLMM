@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+  <pregunta>
+    <texto>¿Qué significa XML?</texto>
+    <respuesta>Extensible Marking Language</respuesta>
+    <respuesta correcta="si">Extensible Markup Language</respuesta>
+    <respuesta>Example Markup Language</respuesta>
+    <respuesta>Extended Model Language</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuál es la principal función de XML?</texto>
+    <respuesta correcta="si">Almacenar y transportar datos</respuesta>
+    <respuesta>Dar formato visual a las páginas</respuesta>
+    <respuesta>Definir estilos en HTML</respuesta>
+    <respuesta>Validar contraseñas</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué significa que XML es extensible?</texto>
+    <respuesta correcta="si">Puedes definir tus propias etiquetas</respuesta>
+    <respuesta>Se puede abrir en cualquier navegador</respuesta>
+    <respuesta>Tiene compatibilidad con bases de datos</respuesta>
+    <respuesta>Permite ejecutar código JavaScript</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué extensión tienen normalmente los archivos XML?</texto>
+    <respuesta>.xsl</respuesta>
+    <respuesta correcta="si">.xml</respuesta>
+    <respuesta>.xsd</respuesta>
+    <respuesta>.html</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué estructura básica debe tener un documento XML válido?</texto>
+    <respuesta correcta="si">Un único elemento raíz que contenga los demás</respuesta>
+    <respuesta>Varios elementos raíz</respuesta>
+    <respuesta>Solo atributos sin etiquetas</respuesta>
+    <respuesta>Comentarios y hojas de estilo</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué es un DTD en XML?</texto>
+    <respuesta correcta="si">Una definición de tipo de documento</respuesta>
+    <respuesta>Un archivo de estilos</respuesta>
+    <respuesta>Un editor de texto</respuesta>
+    <respuesta>Una etiqueta XML especial</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué carácter se usa para cerrar una etiqueta en XML?</texto>
+    <respuesta>#</respuesta>
+    <respuesta>?</respuesta>
+    <respuesta correcta="si">/</respuesta>
+    <respuesta>@</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué tipo de etiquetas permite XML?</texto>
+    <respuesta correcta="si">Etiquetas definidas por el usuario</respuesta>
+    <respuesta>Solo etiquetas HTML</respuesta>
+    <respuesta>Etiquetas específicas del navegador</respuesta>
+    <respuesta>Solo etiquetas DTD</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué significa "bien formado" en un documento XML?</texto>
+    <respuesta correcta="si">Que sigue todas las reglas de sintaxis de XML</respuesta>
+    <respuesta>Que es compatible con todos los navegadores</respuesta>
+    <respuesta>Que incluye un DTD</respuesta>
+    <respuesta>Que está validado por un editor</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuál de las siguientes afirmaciones es verdadera sobre etiquetas en XML?</texto>
+    <respuesta correcta="si">Las etiquetas deben cerrarse correctamente</respuesta>
+    <respuesta>Las etiquetas pueden omitirse</respuesta>
+    <respuesta>Las etiquetas pueden empezar con un número</respuesta>
+    <respuesta>Todas las etiquetas deben estar en mayúsculas</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Se pueden anidar etiquetas en XML?</texto>
+    <respuesta correcta="si">Sí, siempre que estén bien cerradas</respuesta>
+    <respuesta>No, deben ser planas</respuesta>
+    <respuesta>Solo si el DTD lo permite</respuesta>
+    <respuesta>No, solo en XHTML</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué herramienta se usa comúnmente para validar un XML?</texto>
+    <respuesta correcta="si">Un validador XML con DTD o XSD</respuesta>
+    <respuesta>Un navegador web</respuesta>
+    <respuesta>Un editor de imágenes</respuesta>
+    <respuesta>Una hoja de estilos CSS</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué lenguaje se usa para aplicar estilos a XML?</texto>
+    <respuesta correcta="si">XSLT</respuesta>
+    <respuesta>HTML</respuesta>
+    <respuesta>CSS</respuesta>
+    <respuesta>DTD</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué es un atributo en XML?</texto>
+    <respuesta correcta="si">Información adicional dentro de una etiqueta</respuesta>
+    <respuesta>Una etiqueta secundaria</respuesta>
+    <respuesta>Un nombre de archivo</respuesta>
+    <respuesta>Un tipo de dato</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué es una entidad en XML?</texto>
+    <respuesta correcta="si">Una referencia a un valor predefinido o externo</respuesta>
+    <respuesta>Una etiqueta cerrada</respuesta>
+    <respuesta>Un atributo con valor nulo</respuesta>
+    <respuesta>Un archivo independiente</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué es un espacio de nombres en XML (namespace)?</texto>
+    <respuesta correcta="si">Un método para evitar conflictos entre nombres de etiquetas</respuesta>
+    <respuesta>Un sistema de validación</respuesta>
+    <respuesta>Una forma de incluir imágenes</respuesta>
+    <respuesta>Un tipo de codificación</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué tecnología permite transformar XML a HTML u otro formato?</texto>
+    <respuesta correcta="si">XSLT</respuesta>
+    <respuesta>CSS</respuesta>
+    <respuesta>DTD</respuesta>
+    <respuesta>PHP</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué es un XSD?</texto>
+    <respuesta correcta="si">Un esquema XML para validar la estructura y tipo de datos</respuesta>
+    <respuesta>Un tipo de etiqueta XML</respuesta>
+    <respuesta>Una extensión de navegador</respuesta>
+    <respuesta>Un tipo de documento HTML</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Cuál es el propósito principal de XML?</texto>
+    <respuesta correcta="si">Separar el contenido de su presentación</respuesta>
+    <respuesta>Estilizar páginas web</respuesta>
+    <respuesta>Ejecutar scripts en el navegador</respuesta>
+    <respuesta>Crear bases de datos</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>¿Qué ocurre si un archivo XML no está bien formado?</texto>
+    <respuesta correcta="si">No podrá ser procesado por un parser XML</respuesta>
+    <respuesta>Se mostrará sin problemas en todos los navegadores</respuesta>
+    <respuesta>Simplemente ignorará los errores</respuesta>
+    <respuesta>Se convierte automáticamente a JSON</respuesta>
+  </pregunta>
+</preguntas>

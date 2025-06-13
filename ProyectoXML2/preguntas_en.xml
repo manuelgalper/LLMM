@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntas>
+  <pregunta>
+    <texto>What does XML stand for?</texto>
+    <respuesta>Extensible Marking Language</respuesta>
+    <respuesta correcta="si">Extensible Markup Language</respuesta>
+    <respuesta>Example Markup Language</respuesta>
+    <respuesta>Extended Model Language</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What is the main purpose of XML?</texto>
+    <respuesta correcta="si">To store and transport data</respuesta>
+    <respuesta>To style web pages</respuesta>
+    <respuesta>To define HTML styles</respuesta>
+    <respuesta>To validate passwords</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What does it mean that XML is extensible?</texto>
+    <respuesta correcta="si">You can define your own tags</respuesta>
+    <respuesta>It can be opened in any browser</respuesta>
+    <respuesta>It has database compatibility</respuesta>
+    <respuesta>Allows executing JavaScript code</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What file extension do XML files normally have?</texto>
+    <respuesta>.xsl</respuesta>
+    <respuesta correcta="si">.xml</respuesta>
+    <respuesta>.xsd</respuesta>
+    <respuesta>.html</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What basic structure must a valid XML document have?</texto>
+    <respuesta correcta="si">A single root element containing the others</respuesta>
+    <respuesta>Multiple root elements</respuesta>
+    <respuesta>Only attributes without tags</respuesta>
+    <respuesta>Comments and style sheets</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What is a DTD in XML?</texto>
+    <respuesta correcta="si">A document type definition</respuesta>
+    <respuesta>A style file</respuesta>
+    <respuesta>A text editor</respuesta>
+    <respuesta>A special XML tag</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>Which character is used to close a tag in XML?</texto>
+    <respuesta>#</respuesta>
+    <respuesta>?</respuesta>
+    <respuesta correcta="si">/</respuesta>
+    <respuesta>@</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What type of tags does XML allow?</texto>
+    <respuesta correcta="si">User-defined tags</respuesta>
+    <respuesta>Only HTML tags</respuesta>
+    <respuesta>Browser-specific tags</respuesta>
+    <respuesta>Only DTD tags</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What does "well-formed" mean in an XML document?</texto>
+    <respuesta correcta="si">That it follows all XML syntax rules</respuesta>
+    <respuesta>That it is compatible with all browsers</respuesta>
+    <respuesta>That it includes a DTD</respuesta>
+    <respuesta>That it is validated by an editor</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>Which of the following statements about XML tags is true?</texto>
+    <respuesta correcta="si">Tags must be properly closed</respuesta>
+    <respuesta>Tags can be omitted</respuesta>
+    <respuesta>Tags can start with a number</respuesta>
+    <respuesta>All tags must be uppercase</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>Can tags be nested in XML?</texto>
+    <respuesta correcta="si">Yes, as long as they are properly closed</respuesta>
+    <respuesta>No, they must be flat</respuesta>
+    <respuesta>Only if the DTD allows it</respuesta>
+    <respuesta>No, only in XHTML</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What tool is commonly used to validate an XML?</texto>
+    <respuesta correcta="si">An XML validator with DTD or XSD</respuesta>
+    <respuesta>A web browser</respuesta>
+    <respuesta>An image editor</respuesta>
+    <respuesta>A CSS stylesheet</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What language is used to apply styles to XML?</texto>
+    <respuesta correcta="si">XSLT</respuesta>
+    <respuesta>HTML</respuesta>
+    <respuesta>CSS</respuesta>
+    <respuesta>DTD</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What is an attribute in XML?</texto>
+    <respuesta correcta="si">Additional information inside a tag</respuesta>
+    <respuesta>A secondary tag</respuesta>
+    <respuesta>A filename</respuesta>
+    <respuesta>A data type</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What is an entity in XML?</texto>
+    <respuesta correcta="si">A reference to a predefined or external value</respuesta>
+    <respuesta>A closed tag</respuesta>
+    <respuesta>An attribute with null value</respuesta>
+    <respuesta>An independent file</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What is an XML namespace?</texto>
+    <respuesta correcta="si">A method to avoid conflicts between tag names</respuesta>
+    <respuesta>A validation system</respuesta>
+    <respuesta>A way to include images</respuesta>
+    <respuesta>A type of encoding</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>Which technology allows transforming XML to HTML or other formats?</texto>
+    <respuesta correcta="si">XSLT</respuesta>
+    <respuesta>CSS</respuesta>
+    <respuesta>DTD</respuesta>
+    <respuesta>PHP</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What is an XSD?</texto>
+    <respuesta correcta="si">An XML schema to validate structure and data types</respuesta>
+    <respuesta>A type of XML tag</respuesta>
+    <respuesta>A browser extension</respuesta>
+    <respuesta>A type of HTML document</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What is the main purpose of XML?</texto>
+    <respuesta correcta="si">To separate content from its presentation</respuesta>
+    <respuesta>To style web pages</respuesta>
+    <respuesta>To execute scripts in the browser</respuesta>
+    <respuesta>To create databases</respuesta>
+  </pregunta>
+  <pregunta>
+    <texto>What happens if an XML file is not well-formed?</texto>
+    <respuesta correcta="si">It cannot be processed by an XML parser</respuesta>
+    <respuesta>It will display fine in all browsers</respuesta>
+    <respuesta>It will simply ignore errors</respuesta>
+    <respuesta>It automatically converts to JSON</respuesta>
+  </pregunta>
+</preguntas>
