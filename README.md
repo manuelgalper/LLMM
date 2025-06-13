@@ -62,5 +62,5 @@ Elemento | Descripción
 [Ejercicio 6](/JavaScript/Ejercicio%206.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo hacer cotizaciones aleatorias.
 [Ejercicio 7](/JavaScript/Ejercicio%207.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre el control deslizante de una imagen.
 [Ejercicio 8](/JavaScript/Ejercicio%208.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre la imagen de una calculadora.
-[Ejercicio 9](/JavaScript/Ejercicio%209.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo convertir de Celsius a
-Fahrenheit.
+[Ejercicio 9](/JavaScript/Ejercicio%209.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo convertir de Celsius a Fahrenheit.
+
