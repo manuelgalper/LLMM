@@ -44,3 +44,23 @@ Elemento | Descripción
 [Ejercicio 9](/CSS/Ejercicio%209.html) | Este ejercicio muestra cómo usar posicionamiento absoluto.
 [Ejercicio 11](/CSS/Ejercicio%2011.html) | Este ejercicio muestra cómo crear una página que incluya una barra de navegación con tres opciones y una galería de imágenes
 [Ejercicio 12](/CSS/Ejercicio%2012.html) | Este ejercicio muestra cómo crear una web adaptativa (responsibe) que contenga una cabecera, una barra de navegación, diseño a dos columnas adaptable y un pie de página y luego también hacer uso de mediaquery 
+
+
+# JavaScript
+Recopilación de ejercicio de clase
+
+
+    
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
+[Ejercicio 1](/JavaScript/Ejercicio%201.html) | Este ejercicio muestra cómo modificar el código para añadir un botón (y una función) para borrar la demostración p y colocar el script en un archivo externo llamado MyJS.js.
+[Ejercicio 2](/JavaScript/Ejercicio%202.html) | Este ejercicio muestra cómo modificar el código para añadir un un botón (y una función) que escriba en la demostración p al hacer clic y colocar el script en un archivo externo llamado js02.js
+[Ejercicio 3](/JavaScript/Ejercicio%203.html) | Este ejercicio muestra cómo crear una página web para mostrar diferentes imágenes de coches o de Spiderman haciendo clic botones (uno por cada imagen)
+[Ejercicio 4](/JavaScript/Ejercicio%204.html) | Este ejercicio muestra como crear una página web que declare una variable, asigne un valor a partir de una entrada y, finalmente, lo muestre usando la propiedad innerHTML y luego repetirlo varias veces usando números y textos
+[Ejercicio 5](/JavaScript/Ejercicio%205.html) | Este ejercicio muestra cómo crear una página web desde cero con tres grupos de botones.
+[Ejercicio 6](/JavaScript/Ejercicio%206.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo hacer cotizaciones aleatorias.
+[Ejercicio 7](/JavaScript/Ejercicio%207.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre el control deslizante de una imagen.
+[Ejercicio 8](/JavaScript/Ejercicio%208.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre la imagen de una calculadora.
+[Ejercicio 9](/JavaScript/Ejercicio%209.html) | Este ejercicio muestra cómo crear una página web desde cero que muestre cómo convertir de Celsius a
+Fahrenheit.
