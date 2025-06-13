@@ -43,7 +43,24 @@ Elemento | Descripción
 [Ejercicio 5](/CSS/Ejercicio%205.html) | Este ejercicio muestra cómo modificar el código en W3Schools para obtener la siguiente tabla
 [Ejercicio 9](/CSS/Ejercicio%209.html) | Este ejercicio muestra cómo usar posicionamiento absoluto.
 [Ejercicio 11](/CSS/Ejercicio%2011.html) | Este ejercicio muestra cómo crear una página que incluya una barra de navegación con tres opciones y una galería de imágenes
-[Ejercicio 12](/CSS/Ejercicio%2012.html) | Este ejercicio muestra cómo crear una web adaptativa (responsibe) que contenga una cabecera, una barra de navegación, diseño a dos columnas adaptable y un pie de página y luego también hacer uso de mediaquery 
+[Ejercicio 12](/CSS/Ejercicio%2012.html) | Este ejercicio muestra cómo crear una web adaptativa (responsibe) que contenga una cabecera, una barra de navegación, diseño a dos columnas adaptable y un pie de página y luego también hacer uso de mediaquery
+
+
+# Bootstrap
+Recopilación de ejercicio de clase
+
+
+    
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
+[AnimacionesyTransiciones](/Bootstrap/Animaciones%20y%20transiciones.html) | Este ejercicio muestra cómo incluir animaciones y transiciones
+[Barradenavegación](/Bootstrap/Barra%20de%20navegación.html) | Este ejercicio muestra cómo usar una barra de navegación  horizontal que se contraiga en cuando usemos pantallas pequeñas
+[Carruselconimágenes](/Bootstrap/Carrusel%20con%20imágenes.html) | Este ejercicio muestra como crear un carrusel con 3 imágenes
+[Diseñoadaptable](/Bootstrap/Diseño%20adaptable.html) | Este ejercicio muestra cómo crear un diseño adaptable de forma que se adapte tanto a pantallas pequeñas de smartphone como a tablets y pantallas más grandes
+[Etiquetasdeaudioyvídeo](/Bootstrap/Etiquetas%20de%20audio%20y%20video.html) | Este ejercicio muestra cómo incluir elementos de multimedia
+[Formulario](/Bootstrap/Formulario.html) | Este ejercicio muestra cómo incluir un formulario aunque no sea operativo
+[Tablastriped](/Bootstrap/Tabla%20striped.html) | Este ejercicio muestra cómo incluir una tabla striped
 
 
 # JavaScript
