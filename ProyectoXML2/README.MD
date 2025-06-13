@@ -11,3 +11,5 @@ Elemento | Descripción
 [Index](/ProyectoXML2/index.html) | Este es un documento index que muestra la opción de elegir el idioma (inglés o español), un reloj que contabilice el tiempo empleado en responder y la puntuación obtenida tras la realización de la prueba
 [Style]
 [Script]
+
+https://app.netlify.com/projects/practica3trimestre/overview
