@@ -6,8 +6,7 @@ Recopilación de ejercicio de clase
 elemento | Descripción
 -------- | -----------
 Elemento | Descripción
-[Actividad1](/tema0/Actividad%201.html) | Esta actividad muestra cómo crear una página con el texto facilitado e incluyendo las etiquetas necesarias para crear una cabecera h1 para las siglas HTML,
-usar una cabecera h2 para “Introducción” y “Primeras especificaciones”, texto enfatizado para “Tim Berners-Lee”, colocar una etiqueta “strong” para “HyperText Markup Language” y usar una etiqueta “cite” para la referencia a wikipedia
+[Actividad1](/tema0/Actividad%201.html) | Esta actividad muestra cómo crear una página con el texto facilitado e incluyendo las etiquetas necesarias para crear una cabecera h1 para las siglas HTML, una cabecera h2 para “Introducción” y “Primeras especificaciones”, un texto enfatizado para “Tim Berners-Lee”, una etiqueta “strong” para “HyperText Markup Language” y una etiqueta "cite" para la referencia a wikipedia
 [Actividad2](/tema0/Actividad%202.html) | Esta actividad muestra cómo crear una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto.
 [Actividad3](/tema0/Actividad%203.html) | Esta actividad muestra cómo crear nuestro curriculum personal en html
 [Actividad4](/tema0/Actividad%204.html) | Esta actividad muestra cómo crear nuestra primera página html
