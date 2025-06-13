@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div id="container" style="width:500px">
+
+<div id="header">
+<h1>Main Title of Web Page</h1></div>
+
+<div id="menu">
+<b>Menu</b><br>
+HTML<br>
+CSS<br>
+JavaScript</div>
+
+<div id="content">
+Content goes here</div>
+
+<div id="footer">
+Copyright © W3Schools.com</div>
+
+    </div>
+ 
+</body>
+</html>

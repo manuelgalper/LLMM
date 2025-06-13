@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tabla de Multiplicación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        table {
+            width: 50%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Generador de Tabla de Multiplicación</h1>
+    <label for="numero">Introduce un número: </label>
+    <input type="number" id="numero" placeholder="Número" required>
+    <button onclick="generarTabla()">Generar Tabla</button>
+
+    <div id="tabla-container"></div>
+
+    <script>
+        function generarTabla() {
+            const numero = document.getElementById('numero').value;
+            const tablaContainer = document.getElementById('tabla-container');
+
+            // Verificamos que el número no esté vacío
+            if (!numero) {
+                alert('Por favor, introduce un número');
+                return;
+            }
+
+            let tablaHTML = '<table>';
+            tablaHTML += '<tr><th>Multiplicación</th><th>Resultado</th></tr>';
+
+            // Generar las filas de la tabla
+            for (let i = 1; i <= 10; i++) {
+                tablaHTML += `<tr><td>${numero} x ${i}</td><td>${numero * i}</td></tr>`;
+            }
+
+            tablaHTML += '</table>';
+
+            // Insertamos la tabla generada en el contenedor
+            tablaContainer.innerHTML = tablaHTML;
+        }
+    </script>
+
+</body>
+</html>
