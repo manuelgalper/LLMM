@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificador de CAPTCHA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .captcha-box {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            display: inline-block;
+            border: 1px solid #ccc;
+        }
+        #resultado {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Formulario con CAPTCHA</h1>
+
+<form id="captchaForm">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <div class="captcha-box">
+        <span id="preguntaCaptcha"></span>
+        <button type="button" onclick="generarCaptcha()">↻</button>
+    </div><br>
+
+    <label for="respuestaCaptcha">Tu respuesta:</label><br>
+    <input type="text" id="respuestaCaptcha" required><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+<div id="resultado"></div>
+
+<script>
+    let valorCorrecto;
+
+    function generarCaptcha() {
+        const num1 = Math.floor(Math.random() * 10) + 1;
+        const num2 = Math.floor(Math.random() * 10) + 1;
+        const operadores = ['+', '-', '*'];
+        const operador = operadores[Math.floor(Math.random() * operadores.length)];
+
+        let pregunta = `${num1} ${operador} ${num2}`;
+        valorCorrecto = eval(pregunta);
+        document.getElementById('preguntaCaptcha').textContent = `¿Cuánto es ${pregunta}?`;
+    }
+
+    document.getElementById('captchaForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const respuestaUsuario = parseInt(document.getElementById('respuestaCaptcha').value);
+        const resultado = document.getElementById('resultado');
+
+        if (respuestaUsuario === valorCorrecto) {
+            resultado.textContent = "✅ CAPTCHA correcto. Formulario enviado.";
+            resultado.style.color = "green";
+        } else {
+            resultado.textContent = "❌ CAPTCHA incorrecto. Intenta nuevamente.";
+            resultado.style.color = "red";
+            generarCaptcha(); // Genera uno nuevo al fallar
+        }
+    });
+
+    // Generar el primer CAPTCHA al cargar la página
+    window.onload = generarCaptcha;
+</script>
+
+</body>
+</html>

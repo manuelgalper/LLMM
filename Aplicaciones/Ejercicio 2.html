@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizador de Estilos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        #configuraciones {
+            margin-bottom: 20px;
+        }
+
+        #contenedor {
+            width: 100%;
+            height: 300px;
+            margin-top: 20px;
+            border: 2px solid #ccc;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 16px;
+            overflow-y: auto;
+            position: fixed;
+            top: 100px;
+            left: 20px;
+            right: 20px;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Personalizador de Estilos para el Contenedor</h1>
+    <div id="configuraciones">
+        <label for="fuente">Tamaño de fuente: </label>
+        <input type="range" id="fuente" min="10" max="50" value="16">
+        <br><br>
+
+        <label for="colorTexto">Color del texto: </label>
+        <input type="color" id="colorTexto" value="#000000">
+        <br><br>
+
+        <label for="fondo">Color de fondo: </label>
+        <input type="color" id="fondo" value="#ffffff">
+    </div>
+
+    <div id="contenedor">
+        <p>Este es un área de texto en la que podrás cambiar el tamaño de la fuente, el color del texto y el color de fondo. Ajusta los controles de arriba para ver los cambios.</p>
+    </div>
+
+    <script>
+        // Obtener los elementos de los controles y el contenedor
+        const fuenteInput = document.getElementById('fuente');
+        const colorTextoInput = document.getElementById('colorTexto');
+        const fondoInput = document.getElementById('fondo');
+        const contenedor = document.getElementById('contenedor');
+
+        // Función para actualizar los estilos del contenedor
+        function actualizarEstilos() {
+            // Obtener los valores de los controles
+            const tamanioFuente = fuenteInput.value;
+            const colorTexto = colorTextoInput.value;
+            const colorFondo = fondoInput.value;
+
+            // Actualizar el estilo del contenedor
+            contenedor.style.fontSize = tamanioFuente + 'px';
+            contenedor.style.color = colorTexto;
+            contenedor.style.backgroundColor = colorFondo;
+        }
+
+        // Agregar eventos a los controles para actualizar los estilos al cambiarlos
+        fuenteInput.addEventListener('input', actualizarEstilos);
+        colorTextoInput.addEventListener('input', actualizarEstilos);
+        fondoInput.addEventListener('input', actualizarEstilos);
+
+        // Llamar a la función inicial para aplicar los estilos al cargar la página
+        actualizarEstilos();
+    </script>
+
+</body>
+</html>
