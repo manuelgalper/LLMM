@@ -29,7 +29,7 @@ Elemento | Descripción
 [Ejercicio25](/Tema0/Ejercicio%2025.html) | Este ejercicio nos muestra cómo agregar nuevos controles en el formulario del ejercicio anterior
 
 
-# LLMM
+# CSS
 Recopilación de ejercicio de clase
 
 
@@ -38,12 +38,8 @@ elemento | Descripción
 -------- | -----------
 Elemento | Descripción
 [Ejercicio 1](/CSS/Ejercicio%201.html) | Este ejercicio muestra cómo crear un documento HTML desde cero con tu CV.
-[Ejercicio 3](/CSS/Ejercicio%203.html) | Este ejercicio muestra cómo Modifica la página de w3schools para que muestre la imagen repetida en el eje,
-evitar que haga scroll y modificar también la posición de la imagen para que aparezca a la izquierda y el texto a la derecha.
-[Ejercicio 4](/CSS/Ejercicio%204.html) | Este ejercicio muestra cómo modificar la página de w3schools para que muestre un menú horizontal y el color de
-todos los elementos para que tengan un color de texto blanco y fondo gris oscuro al pasar el ratón.
+[Ejercicio 3](/CSS/Ejercicio%203.html) | Este ejercicio muestra cómo Modifica la página de w3schools para que muestre la imagen repetida en el eje, evitar que haga scroll y modificar también la posición para que aparezca a la izquierda y a la derecha
+[Ejercicio 4](/CSS/Ejercicio%204.html) | Este ejercicio muestra cómo modificar la página de w3schools para que muestre un menú horizontal y el color todos los elementos para que tengan un color de texto blanco y fondo gris oscuro al pasar el ratón.
 [Ejercicio 9](/CSS/Ejercicio%209.html) | Este ejercicio muestra cómo usar posicionamiento absoluto.
-[Ejercicio 11](/CSS/Ejercicio%2011.html) | Este ejercicio muestra cómo crear una página que incluya una barra de navegación con tres opciones y una 
-galería de imágenes.
-[Ejercicio 12](/CSS/Ejercicio%2012.html) | Este ejercicio muestra cómo crear una web adaptativa (responsibe) que contenga una cabecera, una barra de
-navegación, un diseño a dos columnas adaptable y un pie de página.
+[Ejercicio 11](/CSS/Ejercicio%2011.html) | Este ejercicio muestra cómo crear una página que incluya una barra de navegación con tres opciones y una galería de imágenes
+[Ejercicio 12](/CSS/Ejercicio%2012.html) | Este ejercicio muestra cómo crear una web adaptativa (responsibe) que contenga una cabecera, una barra de navegación, diseño a dos columnas adaptable y un pie de página y luego también hacer uso de mediaquery 
