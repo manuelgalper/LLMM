@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .cuadro {
+      width: 50px;
+      height: 50px;
+      background-color: #3498db;
+      position: relative;
+      animation: mover 2s infinite;
+    }
+    @keyframes mover {
+      0% { left: 0; }
+      50% { left: 200px; }
+      100% { left: 0; }
+    }
+  </style>
+  <title>Animaciones</title>
+</head>
+<body>
+  <div class="cuadro"></div>
+</body>
+</html>
