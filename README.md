@@ -46,21 +46,6 @@ Elemento | Descripción
 [Ejercicio 12](/CSS/Ejercicio%2012.html) | Este ejercicio muestra cómo crear una web adaptativa (responsibe) que contenga una cabecera, una barra de navegación, diseño a dos columnas adaptable y un pie de página y luego también hacer uso de mediaquery
 
 
-# Bootstrap
-Recopilación de ejercicio de clase
-
-
-    
-elemento | Descripción
--------- | -----------
-Elemento | Descripción
-[AnimacionesyTransiciones](/Bootstrap/Animaciones%20y%20transiciones.html) | Este ejercicio muestra cómo incluir animaciones y transiciones
-[Barra de navegación](/Bootstrap/Barra%20de%20navegacion.html) | Este ejercicio muestra cómo usar una barra de navegación  horizontal que se contraiga en cuando usemos pantallas pequeñas
-[Carrusel con imágenes](/Bootstrap/Carrusel%20con%20imagenes.html) | Este ejercicio muestra como crear un carrusel con 3 imágenes
-[Diseño adaptable](/Bootstrap/Diseñoa%20adaptable.html) | Este ejercicio muestra cómo crear un diseño adaptable de forma que se adapte tanto a pantallas pequeñas de smartphone como a tablets y pantallas más grandes
-[Etiquetas de audio y vídeo](/Bootstrap/Etiquetas%20de%20audio%20yvideo.html) | Este ejercicio muestra cómo incluir elementos de multimedia
-[Formulario](/Bootstrap/Formulario.html) | Este ejercicio muestra cómo incluir un formulario aunque no sea operativo
-[Tabla striped](/Bootstrap/Tabla%20striped.html) | Este ejercicio muestra cómo incluir una tabla striped
 
 
 # JavaScript
@@ -95,17 +80,3 @@ Elemento | Descripción
 [Ejercicio 3](/DOM/Ejercicio%203.html) | Este ejercicio muestra cómo cear una página con una lista y borra los elementos de dicha lista.
 
 
-# Aplicaciones avanzadas con JavaScript
-Recopilación de ejercicio de clase
-
-
-    
-elemento | Descripción
--------- | -----------
-Elemento | Descripción
-[Ejercicio 1](/AplicacionesavanzadasconJavaScript(opconal)/Ejercicio%201.html) | Este ejercicio muestra cómo crear una página HTML donde los usuarios escriban códigos y muestren el resultado en un área pequeña junto al código. Usa un área de texto para escribir el código y un DIV para el resultado.
-[Ejercicio 2](/AplicacionesavanzadasconJavaScript(opconal)/Ejercicio%202.html) | Este ejercicio muestra cómo escribir una página web donde puedas cambiar el tamaño de fuente, el color de fondo, el color del texto, etc. en un área específica que quedará fijada en un lugar determinado.
-[Ejercicio 3](/AplicacionesavanzadasconJavaScript(opconal)/Ejercicio%203.html) | Este ejercicio muestra cómo crear una página web y añade una entrada de selección de tipo donde puedas elegir entre al menos tres tipos de hojas de estilo y luego elegir una y aplicarla inmediatamente modificando el atributo href en la etiqueta de enlace.
-[Ejercicio 4](/AplicacionesavanzadasconJavaScript(opconal)/Ejercicio%204.html) | Este ejercicio muestra cómo escribir un documento HTML que genere la tabla de un número, introduciéndola en un texto de entrada y luego mostrar la tabla con el estilo correcto.
-[Ejercicio 5](AplicacionesavanzadasconJavaScript20(opconal)/Ejercicio%205.html) | Este ejercicio muestra cómo diseñar una página web donde los usuarios puedan poner a prueba su memoria. 
-[Ejercicio 6](AplicacionesavanzadasconJavaScript(opconal)/Ejercicio%206.html) | Este ejercicio muestra cómo escribir un documento html para generar y evaluar captchas.
