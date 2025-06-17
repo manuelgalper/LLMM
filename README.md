@@ -60,7 +60,23 @@ Elemento | Descripción
 [Ejercicio 12](/CSS/Ejercicio%2012.html) | Este ejercicio muestra cómo crear una web adaptativa (responsibe) que contenga una cabecera, una barra de navegación, diseño a dos columnas adaptable y un pie de página y luego también hacer uso de mediaquery
 
 
+# Bootstrap
+Recopilación de ejercicio de clase
 
+
+    
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
+[Transiciones](/PrácticaBootstrap/Animaciones.html) | Este es el ejercicio de transiciones
+[Carrusel](/PrácticaBootstrap/Carrusel.html) | Este es el ejercicio del carrusel con imágenes
+[Diseño](/PrácticaBootstrap/Diseño.html) | Este es el ejercicio del diseño
+[Etiquetas](/PrácticaBootstrap/Etiquetas.html) | Este es el ejercicio de las etiquetas de audio y video
+[Formulario](/PrácticaBootstrap/Fomulario.html) | Este es el ejercicio del formulario
+[Navegación](/PrácticaBootstrap/Navegación.html) | Este es el ejercicio de la barra de navegación
+[Transiciones](/PrácticaBootstrap/Transiciones.html) | Este es el ejercicio de las transiciones
+[Tabla](/PrácticaBootstrap/Tabla.html) | Este es el ejercicio de la tabla striped
+[Index](/PrácticaBootstrap/Index.html) | Este es el fichero Index con todos los apartados
 
 
 # JavaScript
