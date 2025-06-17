@@ -110,3 +110,20 @@ Elemento | Descripción
 [Ejercicio 4](/Aplicaciones/Ejercicio%204.html) | Este ejercicio muestra cómo escribir un documento HTML que genere la tabla de un número, introduciéndola en un texto de entrada y luego mostrar la tabla con el estilo correcto.
 [Ejercicio 5](/Aplicaciones/Ejercicio%205.html) | Este ejercicio muestra cómo diseñar una página web donde los usuarios puedan poner a prueba su memoria.
 [Ejercicio 6](/Aplicaciones/Ejercicio%206.html) | Este ejercicio muestra cómo escribir un documento html para generar y evaluar captchas.
+
+
+# Practica3trimestre
+Recopilación de ejercicio de clase
+
+
+    
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
+[Preguntas_es](/ProyectoXML2/preguntas_es.xml) | Este es un documento XML con 20 preguntas sobre XML y DTD en español
+[Preguntas_en](/ProyectoXML2/preguntas_en.xml) | Este es otro documento XML con 20 preguntas sobre XML y DTD pero en inglés
+[Index](/ProyectoXML2/index.html) | Este es un documento index que muestra la opción de elegir el idioma (inglés o español), un reloj que contabilice el tiempo empleado en responder y la puntuación obtenida tras la realización de la prueba
+[Style]
+[Script]
+
+https://app.netlify.com/projects/practica3trimestre/overview
