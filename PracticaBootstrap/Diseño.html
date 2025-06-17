@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseno Responsive</title>
+    <style>
+        /* Reseteo de margenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos generales */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header, nav, section, aside, footer {
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        header, footer {
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section, aside {
+            background-color: #e4e4e4;
+        }
+
+        /* Estilos para pantallas grandes */
+        @media (min-width: 768px) {
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            nav ul {
+                justify-content: flex-start;
+            }
+
+            section {
+                flex: 3;
+            }
+
+            aside {
+                flex: 1;
+            }
+        }
+
+        /* Estilos para pantallas pequenas */
+        @media (max-width: 767px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            section, aside {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mi Sitio Web</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Contenido Principal</h2>
+            <p>Este es el contenido principal del sitio web.</p>
+        </section>
+        <aside>
+            <h2>Barra Lateral</h2>
+            <p>Este es el contenido de la barra lateral.</p>
+        </aside>
+        <footer>
+            <p>© 2025 Mi Sitio Web</p>
+        </footer>
+    </div>
+</body>
+</html>
