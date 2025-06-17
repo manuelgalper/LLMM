@@ -29,6 +29,20 @@ Elemento | Descripción
 [Ejercicio25](/tema0/Ejercicio%2025.html) | Este ejercicio nos muestra cómo agregar nuevos controles en el formulario del ejercicio anterior
 
 
+# Trabajo trimestral
+Recopilación de ejercicio de clase
+
+
+    
+elemento | Descripción
+-------- | -----------
+Elemento | Descripción
+[index](Trabajotrimestral/index.html) | Este es el documento index
+[html](Trabajotrimestral/html.html) | Este es el documento html
+[css](Trabajotrimestral/css.html) | Este es el documento css
+[svg](Trabajotrimestral/svg.html) | Este es el documento svg
+[style]
+
 # CSS
 Recopilación de ejercicio de clase
 
