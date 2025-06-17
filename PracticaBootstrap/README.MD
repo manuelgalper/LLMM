@@ -6,7 +6,6 @@ Recopilación de ejercicio de clase
 elemento | Descripción
 -------- | -----------
 Elemento | Descripción
-
 [Transiciones](/PrácticaBootstrap/Animaciones.html) | Este es el ejercicio de transiciones
 [Carrusel](/PrácticaBootstrap/Carrusel.html) | Este es el ejercicio del carrusel con imágenes
 [Diseño](/PrácticaBootstrap/Diseño.html) | Este es el ejercicio del diseño
